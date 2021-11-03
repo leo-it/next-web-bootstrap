@@ -16,7 +16,7 @@ a {
 
 /* Header */
 .header{
-  background-color:rgba(211, 211, 211, 0.658);
+  background-color:rgba(211, 211, 211, 0.808);
 }
 .header--toggle{
   color: aliceblue;
@@ -24,7 +24,14 @@ a {
 /* footer */
 .footer {
   background-color: rgb(211, 211, 211);
-  padding: 20px;
+  padding-left: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.footer--container {
+ width: 60%;
+ text-align: center;
 }
 .footer--title {
   color: #404b67;
